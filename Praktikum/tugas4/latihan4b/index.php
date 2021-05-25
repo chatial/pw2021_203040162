@@ -7,6 +7,8 @@
 ?>
 
 <?php 
+// Menghubungkan dengan file php lainnya
+require 'php/functions.php';
 //Menghubungkan ke server Database
 $conn = mysqli_connect("localhost","root","");
 //Memilih Database
